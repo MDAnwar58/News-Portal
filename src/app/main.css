@@ -1,0 +1,67 @@
+.group:hover .group-hover\:d-block {
+   display: block !important;
+}
+.group:hover .group-hover\:d-flex {
+   display: flex !important;
+}
+.group:hover .group-hover\:flex-column {
+   flex-direction: column !important;
+}
+.group:hover .group-hover\:border-transparent {
+   border: 2px solid transparent !important;
+}
+.group:hover .group-hover\:bg-light {
+   background-color: rgb(236, 236, 236) !important;
+}
+.group:hover .group-hover\:text-gray {
+   color: rgb(63, 63, 63) !important;
+}
+.group:hover .group-hover\:text-primary {
+   color: rgb(0, 89, 243) !important;
+}
+.card-popular {
+   display: block;
+}
+.card-popular-title {
+   width: 100%;
+}
+.card-popular-image {
+   width: 100%;
+}
+@media (min-width: 320px) {
+   .card-popular {
+      display: flex;
+      width: 100%;
+   }
+   .card-popular-title {
+      width: 65%;
+   }
+   .card-popular-image {
+      width: 35%;
+   }
+}
+@media (min-width: 350px) {
+   .card-popular-title {
+      width: 60%;
+   }
+   .card-popular-image {
+      width: 40%;
+   }
+}
+@media (min-width: 375px) {
+   .card-popular-title {
+      width: 70%;
+   }
+   .card-popular-image {
+      width: 30%;
+   }
+}
+
+@media (min-width: 768px) {
+   .card-popular-title {
+      width: 61%;
+   }
+   .card-popular-image {
+      width: 39%;
+   }
+}
